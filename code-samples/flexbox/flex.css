@@ -1,0 +1,35 @@
+
+
+.flexbox{
+  background-color: gray;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  height:500px;
+  flex-wrap: wrap;
+  align-content:space-around;
+}
+
+.box{
+  width:500px;
+}
+
+.box1{
+  background-color: red;
+}
+
+.box2{
+  background-color: orange;
+}
+
+.box3{
+  background-color: yellow;
+}
+
+.box4{
+  background-color: green;
+}
+
+.box5{
+  background-color: blue;
+}

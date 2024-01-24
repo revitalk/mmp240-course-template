@@ -1,0 +1,30 @@
+
+
+.flexbox{
+  background-color: gray;
+  display:flex;
+  flex-direction:row;
+}
+
+.box{
+}
+
+.box1{
+  background-color: red;
+}
+
+.box2{
+  background-color: orange;
+}
+
+.box3{
+  background-color: yellow;
+}
+
+.box4{
+  background-color: green;
+}
+
+.box5{
+  background-color: blue;
+}

@@ -1,0 +1,51 @@
+body{
+font-family: 'Source Sans Pro', sans-serif;
+line-height: 1.2em;
+}
+
+#wrapper{
+  max-width:1200px;
+  margin:0 auto; /* first value is for top/bottom, second value for left/right */
+}
+
+p, h4{
+  margin:1em 0;
+}
+
+h4{
+  font-weight: bold;
+}
+
+.cards-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+  border: solid 1px #ccc;
+  padding: 0.5em;
+  width:20%;
+  flex: 1 1 auto;
+  margin:1em;
+}
+
+.responsive-img{
+    width:100%;
+}
+
+
+@media (max-width:480px) {
+
+  .cards-container{
+    padding:0.5em;
+    flex-direction: column;
+  }
+
+  .card{
+    width:90%;
+    margin:0;
+    margin-bottom:1em;
+  }
+}

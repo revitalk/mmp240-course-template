@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hide and show</title>
+    <link rel="stylesheet" href="style3.css">
+       
+    <script>
+      function showMenu(){
+        var  menu = document.getElementById("menu");
+        if  (menu.style.display==="none"){
+            menu.style.display="block";
+        } else {
+        menu.style.display="none";
+            }
+        }
+      </script>
+      
+      
+  </head>
+  <body>
+      <div class="container">
+    
+          <nav class="main-menu">
+              <div class="menu-button">
+                  <img src="images/menu.svg" width="48" alt="" onclick="showMenu();"></div>
+              <div class="menu-nav" id="menu">
+                  <ul>
+                      <li class="dropdown"><a href="#">Degrees</a></li>
+                      <li class="dropdown"><a href="#">Topics</a></li>
+                      <li><a href="#">Apply</a></li>
+                  </ul>
+           </div>
+          </nav>
+  
+    </div> <!-- container -->
+  </body>
+</html>

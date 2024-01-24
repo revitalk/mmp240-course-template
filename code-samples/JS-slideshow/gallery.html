@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Slideshow</title>
+      <script type="text/javascript" src="gallery.js"></script>
+      <link rel="stylesheet" href="gallery.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="slideshow">
+              <a href="#" class="slide-back" onclick="slideshowBack(); return false;">
+                  <img src="images/back.png" alt="back">
+                </a> 
+          <!--  Place the first image here  -->
+                <img src="images/slide1.jpg" alt="" id="mypic">
+                <a href="#" class="slide-next" onclick="slideshowUp(); return false;">
+                <img src="images/next.png" alt="next"></a> 
+            </div>
+        </div> <!-- #container -->
+    </body>
+</html>

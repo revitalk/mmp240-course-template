@@ -1,0 +1,28 @@
+.container{
+	max-width:1140px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.slideshow{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mypic{
+    width:100%;
+}
+
+.slide-back{
+    position:absolute;
+    left:8px;
+}
+
+.slide-next{
+    position: absolute;
+    right:8px;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 4</title>
+    <style>
+
+        #wrapper{
+            max-width: 1200px;
+            margin-left:auto;
+            margin-right:auto;
+            padding:16px;
+        }
+
+        .layout{
+            display:grid;
+            grid-template-rows: 300px 300px;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            grid-column-gap: 16px;
+            grid-row-gap:16px;
+        }
+
+        .one{
+            background-color: aqua;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        .two, .three, .four{
+            background-color:coral;
+        }
+
+      </style>
+
+  </head>
+  <body>
+      <div id="wrapper">
+          <div class="layout">
+              <div class="one">
+                  One
+              </div>
+              <div class="two">
+                  Two
+              </div>
+              <div class="three">
+                  Three
+              </div>
+              <div class="four">
+                  Four
+              </div>
+          </div>
+    </div>
+  </body>
+</html>
